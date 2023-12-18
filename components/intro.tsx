@@ -116,14 +116,14 @@ export default function Intro() {
         <a
           href='https://www.linkedin.com/in/price-william-alexander/'
           target='_blank'
-          className='bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 '
+          className='bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack '
         >
           <BsLinkedin />
         </a>
         <a
           href='https://github.com/flip-in'
           target='_blank'
-          className='bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border border-black/10 '
+          className='bg-white text-gray-700 hover:text-gray-950 p-4 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack '
         >
           <FaGithubSquare />
         </a>
