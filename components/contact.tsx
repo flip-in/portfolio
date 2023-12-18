@@ -55,7 +55,7 @@ export default function Contact() {
           className='h-52 my-3 rounded-lg borderBlack p-4 focus:ring-2 focus:ring-gray-900 focus:outline-none'
           placeholder='Your message'
           required
-          maxLength={500}
+          maxLength={5000}
         />
         <button
           type='submit'
