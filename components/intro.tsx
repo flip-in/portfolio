@@ -22,7 +22,7 @@ export default function Intro() {
       id='home'
     >
       <div className='flex items-center justify-center'>
-        <div className='relative'>
+        <div className='relative mb-4 sm:mb-0'>
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
