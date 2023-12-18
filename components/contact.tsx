@@ -34,7 +34,7 @@ export default function Contact() {
       <SectionHeading>Contact me</SectionHeading>
       <p className='text-gray-700 -mt-5 dark:text-white/80 '>
         Please contact me directly at{' '}
-        <a className='underline' href='mailto:hello@william.price.dev'>
+        <a className='underline' href='mailto:hello@williamprice.dev'>
           hello@williamprice.dev{' '}
         </a>{' '}
         or through this form
