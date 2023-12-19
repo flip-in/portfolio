@@ -72,7 +72,7 @@ export const projectsData = [
     title: "Jump'N",
     description:
       "I worked at this social sports startup as a React Native developer — implementing map, chat, and video editing features.",
-    tags: ["React Native", "Expo", "React Query", "FFMpeg", "Framer"],
+    tags: ["React Native", "Expo","FFMpeg", "React Query", "TypeScript" ],
     imageUrl: jumpnImg,
   },
   {
