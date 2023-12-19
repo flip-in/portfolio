@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import speedocImg from "public/speedoc-desktop.png"
+import blogImg from "public/blog-desktop.png"
+import jumpnImg from "public/jumpn-desktop.png"
 
 export const links = [
   {
@@ -62,26 +62,27 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Speedoc",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked on corporate website for this startup for 2 years. Users can book medical appointments and video consultations.",
+    tags: ["React", "TypeScript", "Next.js", "MongoDB", "MUI", "Strapi", "Payload CMS", "GraphQL"],
+    imageUrl: speedocImg,
   },
   {
-    title: "rmtDev",
+    title: "Jump'N",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked at this social sports startup as a React Native developer — implementing map, chat, and video editing features.",
+    tags: ["React Native", "Expo", "React Query", "FFMpeg", "Framer"],
+    imageUrl: jumpnImg,
   },
   {
-    title: "Word Analytics",
+    title: "AI Tech Blog",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Personal Next.js project to learn the OpenAI API and a customized Tip Tap editor",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "OpenAI API", "Tip Tap"],
+    imageUrl: blogImg,
   },
+
 ] as const;
 
 export const skillsData = [
