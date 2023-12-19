@@ -41,7 +41,7 @@ export default function Intro() {
               className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl'
             />
           </motion.div>
-          <motion.span
+          {/* <motion.span
             className='text-4xl absolute bottom-0 right-0'
             initial={{
               opacity: 0,
@@ -59,7 +59,7 @@ export default function Intro() {
             }}
           >
             👋
-          </motion.span>
+          </motion.span> */}
         </div>
       </div>
       <motion.h1
