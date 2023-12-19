@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "Speedoc",
     description:
-      "I worked on corporate website for this startup for 2 years. Users can book medical appointments and video consultations.",
+      "I worked on the corporate website for this startup for 2 years. Users can book medical appointments and video consultations.",
     tags: ["React", "TypeScript", "Next.js", "MongoDB", "MUI", "Strapi", "Payload CMS", "GraphQL"],
     imageUrl: speedocImg,
   },
