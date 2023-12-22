@@ -67,6 +67,7 @@ export const projectsData = [
       "I worked on the corporate website for this startup for 2 years. Users can book medical appointments and video consultations.",
     tags: ["React", "TypeScript", "Next.js", "MongoDB", "MUI", "Strapi", "Payload CMS", "GraphQL"],
     imageUrl: speedocImg,
+    url: "https://speedoc.com",
   },
   {
     title: "Jump'N",
@@ -74,6 +75,7 @@ export const projectsData = [
       "I worked at this social sports startup as a React Native developer — implementing map, chat, and video editing features.",
     tags: ["React Native", "Expo","FFMpeg", "React Query", "TypeScript" ],
     imageUrl: jumpnImg,
+    url: "https://jumpn-app.com",
   },
   {
     title: "AI Tech Blog",
@@ -81,6 +83,7 @@ export const projectsData = [
       "Personal Next.js project to learn the OpenAI API and a customized Tip Tap editor",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "OpenAI API", "Tip Tap"],
     imageUrl: blogImg,
+    url: 'https://blog-ai-app-ten.vercel.app/'
   },
 
 ] as const;

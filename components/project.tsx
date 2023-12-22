@@ -2,8 +2,9 @@
 
 import { projectsData } from '@/lib/data';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,12 +13,15 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  url,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ['0 1', '1.33 1'],
   });
+
+  const [hover, setHover] = useState<Boolean | undefined>(false);
 
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
@@ -33,7 +37,20 @@ export default function Project({
     >
       <section className='relative bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden sm:pr-8 sm:h-[20rem] sm:group-even:pl-8 hover:bg-gray-200 transition rounded-lg dark:text-white dark:bg-white/10 dark:hover:bg-white/20'>
         <div className='py-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem] sm:group-even:max-w-[55%] '>
-          <h3 className='text-2xl font-semibold '>{title}</h3>
+          <a
+            href={url}
+            target='_blank'
+            onMouseOver={() => {
+              setHover(true);
+            }}
+            onMouseOut={() => {
+              setHover(false);
+            }}
+            className='flex'
+          >
+            <h3 className='text-2xl font-semibold  underline'>{title}</h3>
+            {hover && <FaArrowUpRightFromSquare className='ml-2 mt-1' />}
+          </a>
           <p className='mt-2 leading-relaxed text-gray-700 dark:text-white/70'>
             {description}
           </p>
