@@ -76,7 +76,7 @@ export default function Intro() {
         <span className='font-bold'>Hello, I&apos;m William.</span>
         <br className='mb-4'></br> I&apos;m a{' '}
         <span className='font-bold'>full-stack developer</span> with{' '}
-        <span className='font-bold'>4 years</span> of experience.
+        <span className='font-bold'>5 years</span> of experience.
         <br className='mb-4'></br> I enjoy building{' '}
         <span className='italic'>interactive sites and mobile apps</span> in{' '}
         <span className='underline'>React</span>.
