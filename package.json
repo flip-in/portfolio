@@ -10,8 +10,8 @@
 		"format": "biome format --write ."
 	},
 	"dependencies": {
-		"@react-email/components": "^0.0.21",
-		"@react-email/tailwind": "^0.1.0",
+		"@react-email/components": "^1.0.8",
+		"@react-email/tailwind": "^2.0.5",
 		"@tailwindcss/postcss": "^4.2.0",
 		"@types/node": "20.10.4",
 		"@types/react": "18.3.11",
