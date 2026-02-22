@@ -96,7 +96,7 @@ export default function Intro() {
 			>
 				<Link
 					href="#contact"
-					className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition group"
+					className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-hidden focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition group"
 					onClick={() => {
 						setTimeOfLastClick(Date.now())
 						setActiveSection("Contact")
@@ -109,7 +109,7 @@ export default function Intro() {
 				<a
 					href="/William Price Software Developer CV.pdf"
 					download
-					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 "
+					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-hidden focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 "
 				>
 					Download CV{" "}
 					<HiDownload className="group-hover:translate-y-1 transition opacity-70" />

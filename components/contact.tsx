@@ -53,12 +53,12 @@ export default function Contact() {
 					name="senderEmail"
 					required
 					maxLength={500}
-					className="h-14 rounded-lg borderBlack px-4 focus:ring-2 focus:ring-gray-900 focus:outline-none dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all"
+					className="h-14 rounded-lg borderBlack px-4 focus:ring-2 focus:ring-gray-900 focus:outline-hidden dark:bg-white/80 dark:focus:bg-white transition-all"
 					placeholder="Your email"
 				/>
 				<textarea
 					name="message"
-					className="h-52 my-3 rounded-lg borderBlack p-4 focus:ring-2 focus:ring-gray-900 focus:outline-none dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all"
+					className="h-52 my-3 rounded-lg borderBlack p-4 focus:ring-2 focus:ring-gray-900 focus:outline-hidden dark:bg-white/80 dark:focus:bg-white transition-all"
 					placeholder="Your message"
 					required
 					maxLength={5000}
