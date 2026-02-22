@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import speedocImg from "public/speedoc-desktop.png"
-import blogImg from "public/blog-desktop.png"
-import jumpnImg from "public/jumpn-desktop.png"
+import speedocImg from "@/public/speedoc-desktop.png"
+import blogImg from "@/public/blog-desktop.png"
+import jumpnImg from "@/public/jumpn-desktop.png"
 
 export const links = [
   {
