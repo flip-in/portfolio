@@ -2,7 +2,7 @@ import React from "react"
 import { CgWorkAlt } from "react-icons/cg"
 import { FaReact } from "react-icons/fa"
 import { LuGraduationCap } from "react-icons/lu"
-import blogImg from "@/public/blog-desktop.png"
+// import blogImg from "@/public/blog-desktop.png"
 import jumpnImg from "@/public/jumpn-desktop.png"
 import speedocImg from "@/public/speedoc-desktop.png"
 
@@ -35,10 +35,26 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Graduated Le Wagon Bootcamp",
+		title: "B.A. Philosophy & Computer Science",
+		location: "Hanover College, Indiana",
+		description:
+			"Studied Philosophy and Computer Science.",
+		icon: React.createElement(LuGraduationCap),
+		date: "2008",
+	},
+	{
+		title: "IT & Self-Directed Study",
+		location: "Various",
+		description:
+			"Worked in IT, continued studying programming, and built hobby projects.",
+		icon: React.createElement(CgWorkAlt),
+		date: "2008 - 2020",
+	},
+	{
+		title: "Le Wagon Bootcamp",
 		location: "Bali, Indonesia",
 		description:
-			"I graduated after 3 months of studying. I immediately found a job as a technical program manager.",
+			"Completed an intensive full-stack web development bootcamp. Transitioned into a technical program manager role immediately after.",
 		icon: React.createElement(LuGraduationCap),
 		date: "2020",
 	},
@@ -46,7 +62,7 @@ export const experiencesData = [
 		title: "Website Team Lead & Engineering Manager",
 		location: "Bali, Indonesia",
 		description:
-			"I worked as a developer and team lead for 2 years. I also upskilled to the Engineering Manager position, where I managed multiple development and QA squads.",
+			"Led a frontend development team building a healthcare web platform. Progressed to Engineering Manager, overseeing multiple development and QA squads.",
 		icon: React.createElement(CgWorkAlt),
 		date: "2020 - 2023",
 	},
@@ -54,9 +70,25 @@ export const experiencesData = [
 		title: "Full-Stack Developer",
 		location: "Remote",
 		description:
-			"I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+			"Built an online booking platform for a vacation-rental company. Developed a React Native social sports app.",
 		icon: React.createElement(FaReact),
-		date: "2023 - present",
+		date: "2023 - 2024",
+	},
+	{
+		title: "AWS Solutions Architect - Associate",
+		location: "",
+		description:
+			"Earned AWS Certified Solutions Architect - Associate certification.",
+		icon: React.createElement(LuGraduationCap),
+		date: "2024",
+	},
+	{
+		title: "AI Software Engineer",
+		location: "Amsterdam, Netherlands",
+		description:
+			"Building AI-powered solutions at ML6.",
+		icon: React.createElement(FaReact),
+		date: "2024 - present",
 	},
 ] as const
 
@@ -86,41 +118,43 @@ export const projectsData = [
 		imageUrl: jumpnImg,
 		url: "https://jumpn-app.com",
 	},
-	{
-		title: "AI Tech Blog",
-		description:
-			"Personal Next.js project to learn the OpenAI API and a customized Tip Tap editor",
-		tags: [
-			"React",
-			"TypeScript",
-			"Next.js",
-			"Tailwind",
-			"OpenAI API",
-			"Tip Tap",
-		],
-		imageUrl: blogImg,
-		url: "https://blog-ai-app-ten.vercel.app/",
-	},
+	// {
+	// 	title: "AI Tech Blog",
+	// 	description:
+	// 		"Personal Next.js project to learn the OpenAI API and a customized Tip Tap editor",
+	// 	tags: [
+	// 		"React",
+	// 		"TypeScript",
+	// 		"Next.js",
+	// 		"Tailwind",
+	// 		"OpenAI API",
+	// 		"Tip Tap",
+	// 	],
+	// 	imageUrl: blogImg,
+	// 	url: "https://blog-ai-app-ten.vercel.app/",
+	// },
 ] as const
 
 export const skillsData = [
-	"HTML",
-	"CSS",
 	"JavaScript",
 	"TypeScript",
+	"Python",
 	"React",
+	"React Native",
 	"Next.js",
 	"Node.js",
-	"Git",
+	"Express",
 	"Tailwind",
 	"Prisma",
 	"MongoDB",
-	"GraphQL",
-	"Apollo",
-	"Express",
 	"PostgreSQL",
-	"Python",
-	"Framer Motion",
+	"GraphQL",
+	"Git",
+	"Docker",
+	"GCP",
+	"AWS (SAA Certified)",
+	"Azure",
 	"OpenAI",
-	"FFmpeg",
+	"Agents SDK",
+	"Context Engineering",
 ] as const

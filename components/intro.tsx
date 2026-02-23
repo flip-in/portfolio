@@ -74,11 +74,10 @@ export default function Intro() {
 			>
 				<span className="font-bold">Hello, I&apos;m William.</span>
 				<br className="mb-4"></br> I&apos;m a{" "}
-				<span className="font-bold">full-stack developer</span> with{" "}
-				<span className="font-bold">5 years</span> of experience.
+				<span className="font-bold">product engineer</span> with{" "}
+				<span className="font-bold">7 years</span> of experience.
 				<br className="mb-4"></br> I enjoy building{" "}
-				<span className="italic">interactive sites and mobile apps</span> in{" "}
-				<span className="underline">React</span>.
+				<span className="italic">web apps, mobile apps, and AI-powered solutions</span>.
 			</motion.h1>
 			<motion.div
 				className="flex flex-col sm:flex-row justify-center items-center gap-2 px-4 text-lg font-medium"
@@ -106,14 +105,14 @@ export default function Intro() {
 					<BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
 				</Link>
 
-				<a
+				{/* <a
 					href="/William Price Software Developer CV.pdf"
 					download
 					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-hidden focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 "
 				>
 					Download CV{" "}
 					<HiDownload className="group-hover:translate-y-1 transition opacity-70" />
-				</a>
+				</a> */}
 				<div className="flex gap-2">
 					<a
 						href="https://www.linkedin.com/in/price-william-alexander/"

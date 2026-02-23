@@ -30,12 +30,12 @@ export default function About() {
 				feeling of finally figuring out a solution to a problem. My core stack
 				is{" "}
 				<span className="font-medium">
-					React, TypeScript, Next.js, and MongoDB
+					React, TypeScript, Next.js, and Python
 				</span>
-				. I am also familiar with Node.js and Prisma. I am always looking to
-				learn new technologies. I am currently looking for a{" "}
-				<span className="font-medium">full-time position</span> as a software
-				developer.
+				. I work extensively with{" "}
+				<span className="font-medium">AI and cloud technologies</span>,
+				including OpenAI, GCP, and AWS. I'm always looking to learn new
+				technologies and push the boundaries of what's possible with AI.
 			</p>
 
 			<p>
@@ -43,8 +43,7 @@ export default function About() {
 				video games, watching movies, and surfing. I also enjoy{" "}
 				<span className="font-medium">learning new things</span>. I am currently
 				learning about{" "}
-				<span className="font-medium">stoicism and world history</span>. I'm
-				also learning how to play the ukelele.
+				<span className="font-medium">stoicism and world history</span>.
 			</p>
 		</motion.section>
 	)
